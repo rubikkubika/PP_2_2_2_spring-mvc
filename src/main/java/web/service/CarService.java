@@ -1,12 +1,13 @@
-package Service;
+package web.service;
 
 import model.Car;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
-
+@Service
 public class CarService {
-    public static List<Car> carService(int count) {
+    public  List<Car> getCars(int count) {
         List<Car> allCarsList = new ArrayList<>();
         allCarsList.add(new Car(1, "toyota", "model1"));
         allCarsList.add(new Car(2, "toyota", "model2"));

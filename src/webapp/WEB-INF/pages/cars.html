@@ -12,6 +12,7 @@
         <th>brand</th>
         <th>model</th>
     </tr>
+
     <tr th:each="car, state : ${carListView}">
         <td th:utext="${car.getId()}">index</td>
         <td th:utext="${car.getBrand()}">count</td>
