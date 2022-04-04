@@ -1,4 +1,4 @@
-package model;
+package web.model;
 
 public class Car {
     int id;
@@ -39,7 +39,7 @@ public class Car {
         return "Car{" +
                 "id=" + id +
                 ", brand='" + brand + '\'' +
-                ", model='" + model + '\'' +
+                ", web.model='" + model + '\'' +
                 '}';
     }
 }
