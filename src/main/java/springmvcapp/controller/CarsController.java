@@ -12,7 +12,7 @@ import java.util.List;
 
 @Controller
 public class CarsController {
-    List<Car> allCarsList = new ArrayList<>();
+    private List<Car> allCarsList = new ArrayList<>();
 
     public CarsController() {
         allCarsList.add(new Car(1, "toyota", "model1"));
